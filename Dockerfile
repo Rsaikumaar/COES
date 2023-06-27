@@ -10,6 +10,7 @@ COPY . /COES
 
 # Install the application dependencies
 RUN pip install -r requirements.txt
-
+#port 
+EXPOSE 8454
 # Define the entry point for the container
-CMD ["flask", "run", "--host=8.8.8.8"]
+CMD ["flask", "run"]
