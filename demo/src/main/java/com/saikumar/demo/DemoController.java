@@ -13,6 +13,6 @@ public class DemoController {
 
     @RequestMapping("/hello1")
     public String Lock(){
-        return "Hi kalyani";
+        return "Hi abishak";
     }
 }
